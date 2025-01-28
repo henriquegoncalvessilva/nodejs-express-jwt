@@ -74,4 +74,4 @@ Esta é minha primeira aplicação utilizando **Node.js**, **Express**, **Prisma
 
 4. Execute a aplicação:
 
-   npm start
+   node --watch server.js
