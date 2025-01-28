@@ -3,7 +3,6 @@ import bcrypt from "bcrypt";
 import { PrismaClient } from "@prisma/client";
 import jwt from "jsonwebtoken";
 
-//importa apenas as rotas
 const router = express.Router();
 const prisma = new PrismaClient();
 
@@ -29,7 +28,6 @@ router.post("/cadastro", async (req, res) => {
     }
 });
 
-//Login
 router.post("/login", async (req, res) => {
     try {
         const userInfo = req.body;

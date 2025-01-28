@@ -1,7 +1,5 @@
 import jwt from "jsonwebtoken";
 
-//importa apenas as rotas
-
 const JWT_SECRET = process.env.JWT_SECRET;
 
 const auth = (req, res, next) => {
