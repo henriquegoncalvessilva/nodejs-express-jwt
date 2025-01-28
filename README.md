@@ -35,7 +35,7 @@ This is my first application using **Node.js**, **Express**, **Prisma**, **Mongo
 
 4. Run the application:
 
-   npm start
+   node --watch server.js
 
 # Aplicação de cadastro e listagem de usuários
 
