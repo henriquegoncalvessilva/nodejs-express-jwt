@@ -31,7 +31,7 @@ This is my first application using **Node.js**, **Express**, **Prisma**, **Mongo
    
    npm install
    
-3. Configure your [MongoDB](https://www.mongodb.com/pt-br "MongoDB") database and [Prisma](https://www.prisma.io/ "Prisma").
+3. Configure your [MongoDB](https://www.mongodb.com/pt-br "MongoDB") database and [Prisma](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/mongodb/connect-your-database-typescript-mongodb).
 
 4. Run the application:
 
@@ -70,7 +70,7 @@ Esta é minha primeira aplicação utilizando **Node.js**, **Express**, **Prisma
    
    npm install
    
-3. Configure o seu banco de dados [MongoDB](https://www.mongodb.com/pt-br "MongoDB") e o [Prisma](https://www.prisma.io/ "Prisma").
+3. Configure o seu banco de dados [MongoDB](https://www.mongodb.com/pt-br "MongoDB") e o [Prisma](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/mongodb/connect-your-database-typescript-mongodb).
 
 4. Execute a aplicação:
 
