@@ -9,4 +9,4 @@ app.use(express.json());
 app.use("/", publicRoutes);
 app.use("/", auth, privateRoutes);
 
-app.listen(3000, () => console.log("Servidor rodando!"));
+app.listen(3000, () => console.log("Server UP!"));

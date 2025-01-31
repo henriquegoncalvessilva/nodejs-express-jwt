@@ -24,7 +24,7 @@ router.post("/cadastro", async (req, res) => {
         });
         res.status(201).json(userDB);
     } catch (err) {
-        res.status(500).json({ message: "Erro no servidor. Tente novamente" });
+        res.status(500).json({ message: "Server error. Please try again." });
     }
 });
 
@@ -41,14 +41,14 @@ router.post("/login", async (req, res) => {
         if (!user) {
             return res
                 .status(404)
-                .json({ message: "Algo deu errado.  Tente novamente" });
+                .json({ message: "Something went wrong. Please try again." });
         }
 
         const isMatch = await bcrypt.compare(userInfo.password, user.password);
 
         if (!isMatch) {
             return res.status(400).json({
-                message: "Algo deu errado. Verifique as informações",
+                message: "Something went wrong. Please check the information.",
             });
         }
 
@@ -56,7 +56,7 @@ router.post("/login", async (req, res) => {
 
         res.status(200).json(token);
     } catch (error) {
-        res.status(500).json({ message: "Erro no servidor. Tente novamente" });
+        res.status(500).json({ message: "Server error. Please try again." });
     }
 });
 
